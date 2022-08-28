@@ -24,11 +24,11 @@ $(document).ready(function(){
             $("#exact_age").html(
                 'Umur kamu sekarang <br/><span id ="age">' +
                 year_age +
-                "tahun" +
+                "tahun," +
                 month_age +
-                "bulan" +
+                "bulan," +
                 day_age +
-                "hari umur</span>"
+                "hari</span>"
             );
         }
     })
